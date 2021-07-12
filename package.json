@@ -1,0 +1,36 @@
+{
+    "name": "algos",
+    "version": "1.0.0",
+    "description": "algorithm fun",
+    "main": "src/index.ts",
+    "scripts": {
+        "test:unit": "mocha -r ts-node/register app/**/*.unit.ts",
+        "lint": "eslint . --ext .ts",
+        "lint-and-fix": "eslint . --ext .ts --fix",
+        "go": "ts-node app/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KyleGashler/algos.git"
+    },
+    "author": "Kyle Gashler",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/KyleGashler/algos/issues"
+    },
+    "homepage": "https://github.com/KyleGashler/algos#readme",
+    "devDependencies": {
+        "@types/chai": "^4.2.20",
+        "@types/mocha": "^8.2.3",
+        "@typescript-eslint/eslint-plugin": "^4.28.2",
+        "@typescript-eslint/parser": "^4.28.2",
+        "chai": "^4.3.4",
+        "eslint": "^7.30.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "mocha": "^9.0.2",
+        "prettier": "^2.3.2",
+        "ts-node": "^10.0.0",
+        "typescript": "^3.3.3"
+    }
+}
