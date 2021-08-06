@@ -24,7 +24,7 @@ export const maxArea = (height: number[]) => {
         index1++;
     }
 
-    console.log(runComplex);
+    console.log(`runtime count given ${height.length} items: `, runComplex);
     return highestVolume;
 };
 
