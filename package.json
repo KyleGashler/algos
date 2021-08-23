@@ -4,7 +4,7 @@
     "description": "algorithm fun",
     "main": "src/index.ts",
     "scripts": {
-        "test:unit": "mocha -r ts-node/register app/**/*.unit.ts",
+        "test:unit": "mocha -r ts-node/register \"app/**/*.unit.ts\"",
         "lint": "eslint . --ext .ts",
         "lint-and-fix": "eslint . --ext .ts --fix",
         "go": "ts-node app/index.ts"
